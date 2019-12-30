@@ -7,6 +7,6 @@ class SiteController extends Controller
 {
     public function actionIndex ()
     {
-        return 'test Yii2';
+        return $this->render('index');
     }
 }
