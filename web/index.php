@@ -1,5 +1,7 @@
 <?php
 
-    echo "<h1>Testing Yii2</h1>";
+    require __DIR__ . '/../vendor/yiisoft/yii2/Yii.php';
+    $config = require __DIR__ . '/../config/web.php';
+    (new yii\web\Application($config)) -> run();
 
 ?>
