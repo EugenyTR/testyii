@@ -1,5 +1,10 @@
 {
     "require": {
-        "yiisoft/yii2": "*"
+        "yiisoft/yii2": "*",
+        "codeception/codeception": "*"
+    },
+    "require-dev": {
+        "codeception/module-asserts": "^1.1",
+        "codeception/module-phpbrowser": "^1.0"
     }
 }
