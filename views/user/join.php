@@ -7,6 +7,6 @@
         email<br/>
         password<br/>
         password2<br/>
-        [Create]
+        [Create_new_account]
     </div>
 </div>
